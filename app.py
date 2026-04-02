@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(
-    page_title="AI理赔智能客服",
+    page_title="AI京小赔",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
