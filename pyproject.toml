@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ai-claims-customer-service"
+version = "0.1.0"
+description = "AI理赔智能客服系统"
+authors = ["041114-ai <3066009157@qq.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.39.0"
+openai = "^1.17.0"
+langchain = "^0.1.35"
+langchain-core = "^0.2.2"
+chromadb = "^1.5.0"
+sentence-transformers = "^3.0.0"
+pillow = "^10.0.0"
+pydantic = "^2.5.0"
+pydantic-settings = "^2.1.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
